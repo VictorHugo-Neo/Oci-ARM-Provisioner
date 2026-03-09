@@ -72,8 +72,8 @@ def try_launch():
     )
 
     shape_cfg = oci.core.models.LaunchInstanceShapeConfigDetails(
-        ocpus=4.0, 
-        memory_in_gbs=24.0
+        ocpus=1.0, 
+        memory_in_gbs=6.0
     )
 
     source = oci.core.models.InstanceSourceViaImageDetails(
