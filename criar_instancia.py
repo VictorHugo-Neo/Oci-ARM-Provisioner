@@ -116,6 +116,6 @@ def try_launch():
 
 while not try_launch():
     
-    tempo_espera = random.randint(40, 90)
+    tempo_espera = random.randint(40, 60)
     print(f"Disfarçando o script: esperando {tempo_espera} segundos antes da próxima tentativa...\n")
     time.sleep(tempo_espera)
